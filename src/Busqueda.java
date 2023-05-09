@@ -12,7 +12,7 @@ public class Busqueda {
 
             //Busqueda lineal
             long tiempoinicio1=System.nanoTime();
-            searchBinary(arreglo,-1);
+            searchLinear(arreglo,-1);
             long tiempofinal1=System.nanoTime();
             long tiempoTotal1=tiempofinal1-tiempoinicio1;
 
